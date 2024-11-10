@@ -182,13 +182,14 @@ h6 {
   margin: 0 0 0 30px;
   border-radius: 4px;
   transition: 0.3s;
-  border: 2px solid var(--accent-color);
+  
 }
 
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
-  color: var(--default-color);
-  background: var(--accent-color);
+  color: white;
+  background: rgb(63, 197, 63);
+  /* margin: 0; */
 }
 
 @media (max-width: 1200px) {
