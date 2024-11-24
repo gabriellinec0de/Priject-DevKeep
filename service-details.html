@@ -44,18 +44,18 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">GP</h1>
-        <span>.</span>
+        <h1 class="sitename">DevelKeep</h1>
+        <span>...</span>
       </a>
 
-      <nav id="navmenu" class="navmenu">
+      <!-- <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="#hero">Inicio <br></a></li>
+          <li><a href="#about">Sobre nosotros </a></li>
+          <li><a href="#services">Servicios </a></li> -->
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <!-- <li><a href="#team">Equipo </a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -71,13 +71,13 @@
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
             </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+          </li> -->
+          <!-- <li><a href="#contact">Contacto </a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
+      </nav> -->
 
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+      <a class="btn-getstarted" href="starter-page.html" ><i class="bi bi-person-fill"></i>  Login</a>
 
     </div>
   </header>
@@ -90,8 +90,16 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Service Details</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <h1>Detalles del servicio </h1>
+              <p class="mb-0" style="text-align: left;">
+                En DevelKeep, cada servicio está diseñado con un enfoque en tus necesidades específicas
+                y objetivos estratégicos. Ofrecemos desarrollo de software a medida, ideal para empresas
+                que buscan soluciones únicas y personalizadas. Nuestra automatización de procesos te permite
+                optimizar la eficiencia operativa y liberar recursos para el crecimiento. Además, contamos con
+                un equipo de soporte técnico especializado, disponible para resolver problemas complejos y garantizar
+                la continuidad de tus sistemas. Cada servicio está respaldado por nuestra experiencia y compromiso 
+                de generar valor real y duradero para tu negocio.
+              </p>
             </div>
           </div>
         </div>
@@ -99,8 +107,8 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
+            <li><a href="index.html">Inicio</a></li>
+            <li class="current">Detalles del servicio </li>
           </ol>
         </div>
       </nav>
@@ -115,50 +123,127 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
 
-            <div class="service-box">
-              <h4>Serices List</h4>
+            <div class="service-box" id="listServices">
+              <h4>Lista de servicios</h4>
               <div class="services-list">
-                <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Web Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Product Management</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Graphic Design</span></a>
-                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Marketing</span></a>
+                <div class="card">
+                    <div class="card-header">
+                    <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                      <i class="bi bi-arrow-right-circle"></i><span>Diseño web</span>
+                    </a>
+                    </div>
+                    <div id="collapseOne" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        Servicio de diseño web está enfocado en crear sitios atractivos, funcionales y completamente personalizados para cada cliente. Desde pequeñas empresas hasta proyectos complejos, trabajamos para garantizar que tu página web no solo represente la esencia de tu marca, sino que también ofrezca una experiencia de usuario (UX) intuitiva y optimizada. <br><br>
+                        Incluimos diseños responsivos para garantizar que tu sitio se vea y funcione perfectamente en cualquier dispositivo, optimización para motores de búsqueda (SEO) para mejorar tu visibilidad en línea, y una integración completa de funcionalidades modernas como tiendas en línea, sistemas de reservas, y más.
+                        <a href="portfolio-details.html"><button type="button" style="background-color: rgba(16, 224, 141, 0.87);">Seleccionar servicio</button>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                      <i class="bi bi-arrow-right-circle"></i><span>Desarrollo</span>
+                    </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                      Enfoque en desarrollo abarca soluciones tecnológicas a medida que se adaptan a las necesidades específicas de cada cliente. Desde el diseño y la programación de software hasta aplicaciones móviles y sistemas integrados, nuestro equipo garantiza que cada proyecto combine funcionalidad, innovación y escalabilidad. <br><br>
+                      Utilizamos tecnologías modernas y metodologías ágiles para ofrecer resultados eficientes, asegurando un rendimiento óptimo y tiempos de entrega competitivos. Ya sea para optimizar procesos internos, mejorar la experiencia del usuario o crear herramientas que impulsen el crecimiento de tu negocio, DevelKeep se convierte en tu aliado tecnológico.
+                      <a href="portfolio-details.html"><button type="button" style="background-color: rgba(16, 224, 141, 0.87);">Seleccionar servicio</button>
+                      </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="card" >
+                    <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                      <i class="bi bi-arrow-right-circle"></i><span>Consultoria de proyectos </span>
+                    </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                      La gestión de proyectos se basa en un enfoque estructurado y colaborativo para garantizar que cada tarea se lleve a cabo con eficacia y puntualidad. Nos especializamos en planificar, ejecutar y supervisar proyectos tecnológicos, asegurando que se alineen con los objetivos de nuestros clientes. <br><br>
+                      Utilizamos metodologías ágiles para adaptarnos rápidamente a los cambios y mantener una comunicación constante con las partes interesadas. Desde la definición de requerimientos hasta la entrega final, nuestro equipo se compromete a ofrecer resultados que superen las expectativas, optimizando recursos y tiempos sin comprometer la calidad.
+                      <a href="portfolio-details.html"><button type="button" style="background-color: rgba(16, 224, 141, 0.87);">Seleccionar servicio</button>
+                      </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                    <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                      <i class="bi bi-arrow-right-circle"></i><span>Diseño grafico</span>
+                    </a>
+                    </div>
+                    <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+                    <div class="card-body">
+                      Transformamos ideas en expresiones visuales impactantes. Nuestro servicio de diseño gráfico está orientado a crear piezas únicas que representen fielmente la identidad de tu marca y conecten con tu audiencia. <br><br>
+                      Desde logotipos y branding hasta materiales publicitarios y diseño digital, nuestro equipo combina creatividad y estrategia para garantizar resultados de alta calidad. Trabajamos de la mano contigo para comprender tus objetivos y ofrecer soluciones gráficas que destaquen en cualquier medio.
+                      <a href="portfolio-details.html"><button type="button" style="background-color: rgba(16, 224, 141, 0.87);">Seleccionar servicio</button>
+                      </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                  <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
+                    <i class="bi bi-arrow-right-circle"></i><span>Marketing</span>
+                  </a>
+                  </div>
+                  <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    Diseñamos estrategias de marketing digital que conectan tu marca con el público adecuado, maximizando su impacto en el mercado. Ofrecemos servicios que incluyen gestión de redes sociales, campañas de publicidad en línea, optimización SEO y análisis de métricas para garantizar un crecimiento sostenible y medible. <br><br>
+                    Nuestra prioridad es entender tus objetivos y crear soluciones personalizadas que impulsen el reconocimiento de tu marca y generen resultados efectivos. Con DevelKeep, transforma tu presencia digital en una herramienta poderosa para el éxito.
+                    <a href="portfolio-details.html"><button type="button" style="background-color: rgba(16, 224, 141, 0.87);">Seleccionar servicio</button>
+                    </a>
+                  </div>
+                  </div>
               </div>
+                </div>
+              <!-- <div class="services-list">
+                <a href="#" class="active"><i class="bi bi-arrow-right-circle"></i><span>Diseño web</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Desarrollo</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Gestión de productos</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Diseño grafico</span></a>
+                <a href="#"><i class="bi bi-arrow-right-circle"></i><span>Marketing</span></a>
+              </div> -->
             </div><!-- End Services List -->
 
             <div class="service-box">
-              <h4>Download Catalog</h4>
+              <h4>Descargar Catálogo</h4>
               <div class="download-catalog">
-                <a href="#"><i class="bi bi-filetype-pdf"></i><span>Catalog PDF</span></a>
-                <a href="#"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
+                <a href="#"><i class="bi bi-filetype-pdf"></i><span>Catálogo PDF</span></a>
+                <a href="#"><i class="bi bi-file-earmark-word"></i><span>Catálogo DOC</span></a>
               </div>
             </div><!-- End Services List -->
 
             <div class="help-box d-flex flex-column justify-content-center align-items-center">
               <i class="bi bi-headset help-icon"></i>
-              <h4>Have a Question?</h4>
-              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+1 5589 55488 55</span></p>
-              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@example.com">contact@example.com</a></p>
+              <h4> ¿Tiene una duda? </h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+57 5589 55488 55</span></p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:contact@example.com">DevelKeep@gmail.com </a></p>
             </div>
 
           </div>
 
           <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
             <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
-            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
+            <h3>Soluciones tecnológicas personalizadas para tu negocio</h3>
             <p>
-              Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
+              En DevelKeep, cada uno de nuestros servicios está diseñado para adaptarse a tus necesidades únicas. No ofrecemos soluciones genéricas; te brindamos tecnología personalizada que impulsa tu negocio hacia el futuro.
+
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+              <li><i class="bi bi-check-circle"></i><span>Desarrollo de Software a Medida: Creamos aplicaciones y sistemas específicos que resuelven problemas y optimizan procesos, alineados con la visión y objetivos de cada cliente.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Automatización de Procesos: Simplificamos tareas repetitivas y optimizamos flujos de trabajo para reducir costos, aumentar la eficiencia y mejorar la precisión.
+</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Soporte Técnico Especializado: Nuestro equipo de expertos está siempre disponible para asegurar la estabilidad y seguridad de tu infraestructura tecnológica.
+</span></li>
             </ul>
             <p>
-              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
-            </p>
-            <p>
-              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
+              Nos enfocamos en precisión, rapidez y resultados efectivos, garantizando que nuestros servicios no solo resuelvan problemas, sino que creen valor duradero para tu empresa.
             </p>
           </div>
 
@@ -170,6 +255,104 @@
 
   </main>
 
+  <div class="terminos">
+    <!-- Inicio Offcanva -->
+    <div class="offcanvas offcanvas-start" id="PoliticaPrivacidad">
+     <div class="offcanvas-header">
+       <h1 class="offcanvas-title">Politica de privacidad</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+     </div>
+     <div class="offcanvas-body" style=" font-family: Baskerville;">
+       Fecha de entrada en vigencia: 1/12/2024 <br><br>
+
+       En DevelKeep, nos comprometemos a proteger tu privacidad y la seguridad de tus datos personales. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos la información que nos proporcionas cuando visitas nuestro sitio web o utilizas nuestros servicios, en cumplimiento con la Ley 1581 de 2012 sobre la Protección de Datos Personales y la Ley 1266 de 2008 sobre el Habeas Data en Colombia. <br><br>
+       
+       <h3>1. Información que recopilamos </h3><br>
+       Recopilamos información personal que nos proporcionas al registrarte en nuestros servicios o al realizar una consulta, incluyendo, pero no limitándose a: <br><br>
+       
+       <span>.</span> Nombre completo <br>
+       <span>.</span> Correo electrónico <br>
+       <span>.</span> Número de teléfono <br>
+       <span>.</span> Información de facturación <br> 
+       <span>.</span> Datos de navegación y uso del sitio web <br><br>
+       <h3>2. Uso de la información </h3><br>
+       La información recopilada será utilizada para: <br><br>
+       
+       <span>.</span> Proveer y gestionar nuestros servicios. <br>
+       <span>.</span> Procesar solicitudes y pedidos. <br>
+       <span>.</span> Mejorar nuestra página web y experiencia de usuario. <br>
+       <span>.</span> Enviar comunicaciones relacionadas con nuestros servicios, incluyendo actualizaciones, promociones o cambios importantes. <br><br>
+       <h3>3. Seguridad de la información </h3><br>
+       DevelKeep implementa medidas de seguridad adecuadas para proteger la información personal que nos proporcionas contra accesos no autorizados, alteraciones, divulgación o destrucción. Estas medidas incluyen, pero no se limitan a: <br><br>
+       
+       <span>.</span> Encriptación de datos sensibles durante la transmisión. <br>
+       <span>.</span> Acceso restringido a la información personal dentro de nuestra empresa. <br>
+       <span>.</span> Uso de protocolos de seguridad informática y tecnología de prevención de fraude. <br><br>
+       <h3>4. Derechos del usuario </h3><br>
+       De acuerdo con la Ley 1581 de 2012, tienes derecho a: <br><br>
+       
+       <span>.</span> Acceder a tus datos personales que están en nuestra posesión. <br>
+       <span>.</span> Rectificar cualquier dato incorrecto o incompleto. <br>
+       <span>.</span> Solicitar la eliminación de tus datos, cuando sea aplicable. <br>
+       <span>.</span> Oponerte al tratamiento de tus datos personales en ciertos casos. <br>
+       Para ejercer estos derechos, puedes ponerte en contacto con nosotros a través de  <a href="#">develkeep@gmail.com </a><br><br>
+       
+       <h3>5. Transferencia de datos</h3> <br>
+       DevelKeep no compartirá ni venderá tu información personal a terceros sin tu consentimiento explícito, excepto cuando sea necesario para cumplir con obligaciones legales o como parte de la prestación de nuestros servicios (por ejemplo, pagos y procesamiento de pedidos). <br><br>
+       
+       <h3>6. Cookies y tecnologías de seguimiento</h3> <br>
+       Utilizamos cookies y tecnologías de seguimiento similares para mejorar la experiencia del usuario en nuestro sitio web. Estas tecnologías nos permiten personalizar tu experiencia y analizar el tráfico en nuestro sitio. Si prefieres no aceptar cookies, puedes configurar tu navegador para rechazarlas, pero esto podría afectar algunas funcionalidades del sitio. <br><br>
+       
+       <h3>7. Actualizaciones de la política de privacidad</h3> <br>
+       Nos reservamos el derecho de actualizar esta Política de Privacidad en cualquier momento. Cualquier cambio será publicado en esta página y será efectivo en el momento de su publicación. <br><br>
+       
+       <h3>8. Contacto</h3>
+       Si tienes alguna pregunta sobre esta política o sobre cómo manejamos tu información personal, no dudes en contactarnos a través de <a href="#">develkeep@gmail.com. </a> <br><br>
+     </div>
+   </div>
+   <!-- Fin Offcanva -->
+ </div>
+ <div class="terminosYcondiciones">
+    <!-- Inicio Offcanva -->
+    <div class="offcanvas offcanvas-start" id="terminos">
+     <div class="offcanvas-header">
+       <h1 class="offcanvas-title">Terminos y Condiciones</h1>
+       <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+     </div>
+     <div class="offcanvas-body" style=" font-family: Baskerville;">
+       <h3>1. Aceptación de los Términos</h3><br>
+El uso de los servicios y productos de DevelKeep implica la aceptación plena de los términos y condiciones aquí descritos. Nos reservamos el derecho de modificar estos términos en cualquier momento, previa notificación a los usuarios.
+<br><br>
+<h3>2. Alcance de los Servicios</h3><br>
+DevelKeep ofrece servicios tecnológicos personalizados, incluyendo desarrollo de software, automatización de procesos, soporte técnico, y consultoría. Cada servicio será detallado en un contrato específico, que incluirá tiempos de entrega, costos y características acordadas.
+<br><br>
+<h3>3. Responsabilidades del Cliente</h3><br>
+El cliente deberá proporcionar información completa y precisa para el desarrollo de los servicios. Cualquier cambio posterior al alcance inicial del proyecto podrá implicar ajustes en los plazos y costos.
+<br><br>
+<h3>4. Propiedad Intelectual</h3><br>
+Todo el software, diseño y soluciones desarrolladas por DevelKeep serán propiedad exclusiva del cliente, salvo acuerdo previo que indique lo contrario. DevelKeep conserva los derechos sobre metodologías y herramientas utilizadas durante el desarrollo.
+<br><br>
+<h3>5. Garantías</h3><br>
+DevelKeep garantiza la calidad de sus servicios y ofrecerá soporte técnico según lo estipulado en el contrato, para resolver errores o ajustes menores dentro del tiempo acordado.
+<br><br>
+<h3>6. Política de Pagos</h3><br>
+Los pagos deberán realizarse según las condiciones establecidas en el contrato. Los retrasos en los pagos podrán afectar los plazos de entrega o generar cargos adicionales.
+<br><br>
+<h3>7. Confidencialidad</h3><br>
+Ambas partes se comprometen a mantener en estricta confidencialidad toda la información compartida durante el desarrollo de los proyectos.
+<br><br>
+<h3>8. Limitación de Responsabilidad</h3><br>
+DevelKeep no será responsable de daños indirectos, pérdidas de ingresos o cualquier perjuicio causado por el uso de los servicios, salvo en casos de negligencia comprobada.
+<br><br>
+<h3>9. Ley Aplicable y Jurisdicción</h3><br>
+Estos términos se rigen por las leyes de Colombia, y cualquier disputa será resuelta en los tribunales competentes del país.
+<br><br>
+<h3>10. Contacto</h3><br>
+Para cualquier consulta o aclaración sobre estos términos, puedes contactarnos a través de nuestros canales oficiales.
+     </div>
+   </div>
+   <!-- Fin Offcanva -->
+
   <footer id="footer" class="footer dark-background">
 
     <div class="footer-top">
@@ -177,13 +360,13 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">GP</span>
+              <span class="sitename">DevelKeep</span>
             </a>
             <div class="footer-contact pt-3">
               <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p>Aguachica Cesar, AC <link href="assets/img/favicon.png" rel="icon"></p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+57 5589 55488 55</span></p>
+              <p><strong>Email:</strong> <span>DevelKeep@gmail.com</span></p>
             </div>
             <div class="social-links d-flex mt-4">
               <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -194,37 +377,38 @@
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Links utiles</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html"> Inicio</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html"> Sobre nosotros</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html"> Servicios</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#" data-bs-toggle="offcanvas" data-bs-target="#terminos" aria-controls="miOffcanvas"> Terminos y condiciones</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#" data-bs-toggle="offcanvas" data-bs-target="#PoliticaPrivacidad" aria-controls="miOffcanvas"> Politica de privacidad</a></li>
+              
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+            <h4>Otros servicios</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Graphic Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#listServices"> Diseño web</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#listServices"> Desarrollo web</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#listServices"> Mantenimiento-Reparacion de equipos</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#listServices"> Marketing</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#listServices"> Actualizacion de equipo</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-12 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <!-- <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Peticiones, Quejas o Reclamos</h4>
+            <p>Señor/a cliente, si usted se siente Insactifecho con nuestros servicios puede realizar una queja en la caja de reclamos, le agradecemos su colaboración</p>
             <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-              <div class="loading">Loading</div>
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Enviar"></div>
+              <div class="loading">Cargando</div>
               <div class="error-message"></div>
-              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+              <div class="sent-message">Gracias por su ayuda para mejorar nuestro servicio hacia nuestros queridos clientes</div>
             </form>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -232,7 +416,7 @@
 
     <div class="copyright">
       <div class="container text-center">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">DevelKeep</strong> <span>All Rights Reserved</span></p>
       </div>
     </div>
 
