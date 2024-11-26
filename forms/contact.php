@@ -7,7 +7,12 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $Servidor = "localhost"
+  $servidor = "localhost";
+  $usuario = "root";
+  $clave = "";
+  $basededatos= "empresa";
+
+  $enlace = mysqli_connect ($servidor, $usuario, $clave, $basededatos);
   
   
   
