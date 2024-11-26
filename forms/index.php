@@ -2,7 +2,7 @@
     $servidor = "localhost";
     $usuario = "root";
     $clave = "";
-    $basededatos= "proyectoweb2";
+    $basededatos= "empresa";
 
     $enlace = mysqli_connect ($servidor, $usuario, $clave, $basededatos);
 
@@ -17,7 +17,7 @@
     <title>formulario</title>
 </head>
 <body>
-    <form action="/forms/contact.php" name="proyectoweb2" method ="POST">
+    <form action="/forms/contact.php" name="empresa" method ="POST">
      <input type="text" name = "nombre" placeholder= "nombre">
      <input type="email" name = "correo" placeholder= "correo">
      <input type="text" name = "razon" placeholder= "razon">
@@ -38,7 +38,7 @@
         $descripcion = $_POST ['descripcion'];
 
 
-        $insertar= "INSERT INTO datosc VALUES('','$nombre', '$correo' , '$razon' , '$descripcion')";
+        $insertar= "INSERT INTO peticiones VALUES('','$nombre', '$correo' , '$razon' , '$descripcion')";
 
         $ejecutarinsertar = mysqli_query($enlace,$insertar);
 
