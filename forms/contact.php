@@ -7,7 +7,13 @@
   */
 
   // Replace contact@example.com with your real receiving email address
+  $Servidor = "localhost"
+  
+  
+  
+  
   $receiving_email_address = 'contact@example.com';
+
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
