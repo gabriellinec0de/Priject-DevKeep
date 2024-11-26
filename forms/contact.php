@@ -69,7 +69,7 @@
       }
     }else{
       ?>
-       <h3> class="error">ocurrio un error </h3>
+      <h3> class="error">ocurrio un error </h3>
       <?php
     }
 
