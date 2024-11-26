@@ -28,10 +28,20 @@
       $consulta = "INSERT INTO peticiones(nombre, correo, razon, descripcion)
                   values ('name', 'correo', 'razon', 'descripcion', "")";
       
-      $resultado = mysqli_query($conex)
-
-
-      
+      $resultado = mysqli_query($conex, $consulta );
+      if($resultado){
+        ?>
+        <h3>tu registro se ha completado</h3>
+        <?php
+      }else{
+        ?>
+        <h3> class="error">ocurrio un error </h3>
+        <?php
+      }
+    }else{
+      ?>
+       <h3> class="error">ocurrio un error </h3>
+      <?php
     }
 
 
